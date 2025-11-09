@@ -22,7 +22,6 @@ public class HealthMetrics {
     @Nullable
     private Long id;
 
-    // Many rows of HealthMetrics for a single User.
     @ManyToOne(optional = false)
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
