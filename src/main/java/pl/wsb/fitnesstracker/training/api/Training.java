@@ -56,4 +56,33 @@ public class Training {
         this.averageSpeed = averageSpeed;
     }
 
+    // --- Jawne Gettery (Fix dla problemów z Lombokiem) ---
+
+    public Long getId() {
+        return id;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
+
+    public ActivityType getActivityType() {
+        return activityType;
+    }
+
+    public double getDistance() {
+        return distance;
+    }
+
+    public double getAverageSpeed() {
+        return averageSpeed;
+    }
 }
